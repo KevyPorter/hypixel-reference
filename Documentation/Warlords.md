@@ -35,6 +35,7 @@ Such objects can be loaded from a player's ```weapon_inventory``` array inside t
 | material | The material of the weapon. Used to reference it's rarity and name. |
 
 ### Player Classes
+Each player class is assigned a unique ID (they should never overlap.) This is used to lookup data associated with the class (such as specializations.)
 
 | ID | Name |
 | ----- | -------- |
@@ -43,6 +44,7 @@ Such objects can be loaded from a player's ```weapon_inventory``` array inside t
 | 2 | Paladin |
 
 ### Specializations by Player Class
+Each specialization is assigned a unique ID (relative to it's parent class.) In order to know which specialization any ID is assigned to, you must know the ID of the class. 
 
 | Class | ID | Name |
 | ----- | ---- | ---- |
@@ -56,6 +58,8 @@ Such objects can be loaded from a player's ```weapon_inventory``` array inside t
 | 2     | 2  | Protector  |
 
 ### Weapon Materials
+The ID is the item's actual underlying Material used in creating it's ItemStack in Bukkit. It's used purely to reference the name and rarity (as well as it's skin.)
+
 | ID | Name | Rarity |
 | --- | ---- | --------- |
 | WOODEN_AXE | Steel Sword | COMMON |
