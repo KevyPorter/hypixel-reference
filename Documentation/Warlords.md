@@ -42,20 +42,23 @@ Each player class is assigned a unique ID (they should never overlap.) This is u
 | 0 | Mage |
 | 1 | Warrior |
 | 2 | Paladin |
+| 3 | Shaman |
 
 ### Specializations by Player Class
 Each specialization is assigned a unique ID (relative to it's parent class.) In order to know which specialization any ID is assigned to, you must know the ID of the class. 
 
 | Class | ID | Name |
 | ----- | ---- | ---- |
-| 0     | 0  | Pyromancer |
-| 0     | 1  | Cryomancer |
-| 0     | 2  | Aquamancer |
-| 1     | 0  | Berserker  |
-| 1     | 1  | Defender   |
-| 2     | 0  | Avenger    |
-| 2     | 1  | Crusader   |
-| 2     | 2  | Protector  |
+| 0     | 0  | Pyromancer  |
+| 0     | 1  | Cryomancer  |
+| 0     | 2  | Aquamancer  |
+| 1     | 0  | Berserker   |
+| 1     | 1  | Defender    |
+| 2     | 0  | Avenger     |
+| 2     | 1  | Crusader    |
+| 2     | 2  | Protector   |
+| 3     | 0  | Thunderlord |
+| 3     | 1  | Earthwarden |
 
 ### Weapon Materials
 The ID is the item's actual underlying Material used in creating it's ItemStack in Bukkit. It's used purely to reference the name and rarity (as well as it's skin.)
