@@ -14,6 +14,7 @@
 | Warlords              | BATTLEGROUND    | Battleground  | 23            |
 | Turbo Kart Racers     | GINGERBREAD     | GingerBread   | 25            |
 | SkyWars               | SKYWARS         | SkyWars       | 51            |
+| Crazy Walls           | TRUECOMBAT      | TrueCombat    | 52            |
 
 ### Storage
 Games store their respective stats and data in a Player's `stats` collection. The game's specific data is held within a JSON object named after it's `Database Name` (seen above.)
