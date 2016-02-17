@@ -12,6 +12,7 @@
 | UHC Champions         | UHC             | UHC           | 20            |
 | Cops and Crims        | MCGO            | MCGO          | 21            |
 | Warlords              | BATTLEGROUND    | Battleground  | 23            |
+| Smash Heroes          | SUPER_SMASH     | SuperSmash    | 24            |
 | Turbo Kart Racers     | GINGERBREAD     | GingerBread   | 25            |
 | SkyWars               | SKYWARS         | SkyWars       | 51            |
 | Crazy Walls           | TRUECOMBAT      | TrueCombat    | 52            |
